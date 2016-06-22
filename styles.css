@@ -1,0 +1,105 @@
+
+body {
+	margin: 0;
+	background-color: #262626;
+	height: 100vh;
+	width: 100vw;
+	font-family: 'Open Sans', sans-serif
+}
+
+#sidebar {
+	float: left;
+	background: #262626;
+	width: 30vw;
+	height: 100vh;
+}
+#main {
+	float: right;
+	width: 70vw;
+	font-size: 0;
+	overflow: hidden;
+	position: relative;
+}
+#layer1 {
+	position: absolute;
+	z-index: 1;
+}
+#layer2 {
+	position: absolute;
+	z-index: 2;
+}
+h1 {
+	color: white;
+	display: block;
+	margin: 30% 0 50px 40px;
+	font-size: 40px;
+}
+input {
+	font-size: 1em;
+	margin: 40px 0 20px 55px;
+	padding: 10px;
+	width: 200px;
+	background-color: #f7e5f7;
+	text-align: center;
+	font-weight: lighter;
+}
+input:focus {
+	outline: none;
+}
+button {
+	display: block;
+	margin: 70px 0 0 90px;
+	padding: 15px;
+	width: 150px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #e099e0;
+	outline: none;
+	box-shadow: none;
+	border: 1px solid #e099e0;
+	border-radius: 2px;
+}
+button:hover {
+	box-shadow: 0 4px #230023;
+}
+#purple:hover {
+	background-color: #b300b3;
+	border: 1px solid #b300b3;
+}
+#purple:active {
+	background-color: #e8b2e8;
+	border: 1px solid #e8b2e8;
+}
+#reset:hover {
+	background-color: white;
+	border: 1px solid white;
+}
+#reset:active {
+	background-color: #e8b2e8;
+	border: 1px solid #e8b2e8;
+}
+.square {
+	border: 1px solid #515151;
+	float: left;
+	margin-top: -1px;
+	margin-right: -1px;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+   font-weight: lighter;
+   text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+   font-weight: lighter;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+   font-weight: lighter;
+}
+:-ms-input-placeholder {  
+   color: black;  
+   font-weight: lighter;
+}
+
